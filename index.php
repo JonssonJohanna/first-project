@@ -1,28 +1,28 @@
-<?= 'The Elephpent in the Room'; ?>
+<?php
+require __DIR__ . '/header.php';
+require __DIR__ . '/data.php';
+?>
 
-<!DOCTYPE html>
-<html lang="en">
+<h1>Official Website for Gunno</h1>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Gunni</title>
-</head>
+<div class="container">
+    <div class="box">
+        <?php foreach ($albums as $album) :
+            $artist = $album['artist'];
+            $single = $album['single'];
+            $image = $album['image'];
+        ?>
+            <ul>
+                <li><img src="<?php echo $image; ?>" width="80px" height="80px"></li>
+                <li><?php echo $artist; ?></li>
+                <li><?php echo $single; ?></li>
+            </ul>
 
-<body>
-    <div class="navbar">
-        <div class="nav-content">Music</div>
-        <div class="nav-content">Merch</div>
-        <div class="nav-content">About</div>
+
+        <?php endforeach; ?>
     </div>
+</div>
 
-    <div class="profile-image">
-        <img class="main-image" src="Images/Main pp.jpg" alt="Gunno album cover" />
-    </div>
-
-
-</body>
-
-</html>
+<?php
+require __DIR__ . '/footer.php';
+?>
