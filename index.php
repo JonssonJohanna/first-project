@@ -1,6 +1,7 @@
 <?php
-require __DIR__ . '/header.php';
-require __DIR__ . '/data.php';
+require __DIR__ . '/php/header.php';
+require __DIR__ . '/php/data.php';
+require __DIR__ . '/php/functions.php';
 ?>
 
 <h1>Official Website for Gunno</h1>
@@ -20,9 +21,13 @@ require __DIR__ . '/data.php';
 
 
         <?php endforeach; ?>
+        <p class="text"><?php $description = getDescription('Gunno', 1, 'post-punk');
+                        echo $description; ?>
     </div>
+
 </div>
 
+</p>
 <?php
-require __DIR__ . '/footer.php';
+require __DIR__ . '/php/footer.php';
 ?>
