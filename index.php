@@ -22,7 +22,10 @@ require __DIR__ . '/php/functions.php';
 
         <?php endforeach; ?>
         <p class="text"><?php $description = getDescription('Gunno', 1, 'post-punk');
-                        echo $description; ?>
+                        echo $description; ?></p>
+        <p class="button"><?php echo '<a href="https://drive.google.com/file/d/1vVs2fFyh7bXxaGTz3zVwY75xBvpZNzUQ/view?ts=61412f10" target="_blank">For more music</a>';
+                            ?></p>
+
     </div>
 
 </div>
