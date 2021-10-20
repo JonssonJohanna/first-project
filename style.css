@@ -1,3 +1,12 @@
+@font-face {
+  font-family: 'Archivo Black';
+  src: url('ArchivoBlack-Regular.woff2') format('woff2'),
+    url('ArchivoBlack-Regular.woff') format('woff');
+  /* font-weight: 900;
+  /* font-style: normal;
+    font-display: swap; */
+}
+
 :root {
   --background-color: #e8e8e8;
   --font-color: #d15858;
@@ -31,8 +40,8 @@ body {
 
 h1 {
   color: var(--font-color);
-  font-family: sans-serif;
-  font-size: large;
+  font-family: 'Archivo Black';
+  font-size: 1rem;
   border: 5px dotted #d15858;
   border-radius: 8px;
   display: flex;
@@ -59,10 +68,14 @@ li {
   display: block;
   list-style: none;
   color: #d15858;
+  font-family: 'Archivo Black';
+  font-size: 12px;
 }
 
 .text {
   color: var(--font-color);
+  font-size: 15px;
+  font-family: 'Archivo Black';
   width: 300px;
   display: flex;
   justify-content: center;
@@ -72,6 +85,7 @@ li {
 .button a {
   color: #da3434;
   border: 3px solid #d15858;
+  font-family: 'ArchivoBlack-Regular';
 }
 
 footer {
