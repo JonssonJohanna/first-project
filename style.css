@@ -2,15 +2,18 @@
   font-family: 'Archivo Black';
   src: url('ArchivoBlack-Regular.woff2') format('woff2'),
     url('ArchivoBlack-Regular.woff') format('woff');
-  /* font-weight: 900;
-  /* font-style: normal;
-    font-display: swap; */
+}
+@font-face {
+  font-family: 'Sora regular';
+  src: url('Sora-Regular.woff2') format('woff2'),
+    url('Sora-Regular.woff') format('woff');
+  font-weight: normal;
 }
 
 :root {
   --background-color: #e8e8e8;
   --font-color: #d15858;
-  --accent-color: #fbcee6;
+  --accent-color: #f2e2ff;
 }
 * {
   box-sizing: border-box;
@@ -41,7 +44,7 @@ body {
 h1 {
   color: var(--font-color);
   font-family: 'Archivo Black';
-  font-size: 1rem;
+  font-size: 2.5rem;
   border: 5px dotted #d15858;
   border-radius: 8px;
   display: flex;
@@ -60,32 +63,64 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   background-color: var(--accent-color);
-  height: 400px;
-  width: 400px;
+  height: 1900px;
+  width: 300px;
 }
 
+/* .box img {
+  width: 100%;
+  max-width: 500px;
+} */
+
 li {
-  display: block;
   list-style: none;
   color: #d15858;
+  font-family: 'Sora Regular';
+  font-size: 20px;
+}
+
+.review {
+  font-size: 25px;
   font-family: 'Archivo Black';
-  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.artist {
+  font-family: 'Archivo Black';
+  font-size: 20px;
+  color: black;
+  margin: 10px;
+}
+
+.single {
+  font-family: 'Archivo Black';
+  font-size: 15px;
+  color: black;
+  margin: 10px;
+}
+
+.date {
+  font-family: 'Archivo Black';
+  font-size: 15px;
+  color: black;
+  margin: 10px;
 }
 
 .text {
   color: var(--font-color);
-  font-size: 15px;
+  font-size: 35px;
   font-family: 'Archivo Black';
-  width: 300px;
+  /* width: 300px; */
   display: flex;
   justify-content: center;
-  align-content: center;
+  align-self: center;
 }
 
 .button a {
   color: #da3434;
   border: 3px solid #d15858;
   font-family: 'ArchivoBlack-Regular';
+  font-size: 30px;
 }
 
 footer {

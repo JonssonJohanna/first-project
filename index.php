@@ -9,14 +9,22 @@ require __DIR__ . '/php/functions.php';
 <div class="container">
     <div class="box">
         <?php foreach ($albums as $album) :
+            $review = $album['review'];
             $artist = $album['artist'];
             $single = $album['single'];
             $image = $album['image'];
+            $date = $album['release date'];
         ?>
             <ul>
-                <li><img src="<?php echo $image; ?>" width="80px" height="90px"></li>
-                <li><?php echo $artist; ?></li>
-                <li><?php echo $single; ?></li>
+                <li class="review"><?php echo $review; ?></li>
+                <li class="image"><img src="<?php echo $image; ?>" width="260px" height="260px"></li>
+                <li class="artist"><?php echo $artist; ?></li>
+                <li class="single"><?php echo $single; ?></li>
+                <li class="date"><?php if ($date <= 2021) {
+                                        echo 'Album is released, listen to it on spotify!';
+                                    } elseif ($date > 2021 || $date === 2022) {
+                                        echo 'Upcoming album release';
+                                    }; ?></li>
             </ul>
 
 
