@@ -25,6 +25,12 @@ header {
   background-color: var(--font-color);
 }
 
+main {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
 body {
   background-color: var(--background-color);
   margin: 0;
@@ -47,9 +53,8 @@ h1 {
   font-size: 2.5rem;
   border: 5px dotted #d15858;
   border-radius: 8px;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  text-align: center;
+  width: 100%;
 }
 
 .container {
@@ -63,7 +68,6 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   background-color: var(--accent-color);
-  height: 1900px;
   width: 300px;
 }
 
@@ -84,6 +88,10 @@ li {
   font-family: 'Archivo Black';
   margin-bottom: 10px;
 }
+
+/* .image {
+  align-self: center;
+} */
 
 .artist {
   font-family: 'Archivo Black';
