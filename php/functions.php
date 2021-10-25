@@ -7,7 +7,8 @@ function getDescription(string $name, int $active,  string $genre): string
     return "The name of this band is $name, consisting of Noa. Gunno has been active since $active. Gunno plays $genre. ";
 }
 
-$date = date("d-m-Y");
+// $date = date("d-m-Y");
+$today = date("m.d.y");
 
 function concertTicket($price)
 {

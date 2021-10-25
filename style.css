@@ -14,17 +14,13 @@
   --background-color: #e8e8e8;
   --font-color: #d15858;
   --accent-color: #f2e2ff;
+  --text-s-color: #004477;
 }
 * {
   box-sizing: border-box;
 }
 
-@media screen and (min-width: 768px) {
-  body {
-    background-color: var(--background-color);
-  }
-}
-@media screen and (min-width: 1023px) {
+@media only screen and (max-width: 600px) {
   body {
     background-color: black;
   }
@@ -80,14 +76,14 @@ h1 {
   color: var(--font-color);
   font-size: 30px;
   width: 300px;
-  font-family: monospace;
-  align-self: center;
+  font-family: moTiempos, Georgia, serif;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 li {
   list-style: none;
   color: #d15858;
-  font-family: 'Sora Regular';
   font-size: 20px;
 }
 
@@ -96,29 +92,35 @@ li {
   font-family: 'Archivo Black';
   margin-bottom: 10px;
 }
-
-/* .image {
-  align-self: center;
-} */
-
-.artist {
-  font-family: 'Archivo Black';
+.review:hover {
+  color: #c90500;
+}
+.image {
+  width: 340px;
+  opacity: 1;
+  transition: 0.3s;
+}
+.image:hover {
+  opacity: 0.6;
+}
+.single {
+  font-family: 'moTiempos, Georgia, serif';
   font-size: 20px;
-  color: black;
+  color: var(--text-s-color);
   margin: 10px;
 }
 
-.single {
-  font-family: 'Archivo Black';
+.artist {
+  font-family: 'moTiempos, Georgia, serif';
   font-size: 15px;
-  color: black;
+  color: var(--text-s-color);
   margin: 10px;
 }
 
 .date {
-  font-family: 'Archivo Black';
-  font-size: 15px;
-  color: black;
+  font-family: 'moTiempos, Georgia, serif';
+  font-size: 11px;
+  color: var(--text-s-color);
   margin: 10px;
 }
 
@@ -129,20 +131,29 @@ li {
   font-size: 30px;
 }
 
-.concertDay {
-  color: var(--font-color);
+.concert {
+  color: var(--text-s-color);
   font-size: 30px;
   width: 300px;
-  font-family: monospace;
+  font-family: moTiempos, Georgia, serif;
   align-self: center;
+  margin-bottom: 0;
+}
+
+.concertDay {
+  color: var(--font-color);
+  font-size: 25px;
+  width: 300px;
+  font-family: moTiempos, Georgia, serif;
+  margin-bottom: 0;
 }
 
 .concertTickets {
   color: var(--font-color);
-  font-size: 30px;
+  font-size: 25px;
   width: 300px;
-  font-family: monospace;
-  align-self: center;
+  font-family: moTiempos, Georgia, serif;
+  margin-bottom: 70px;
 }
 
 footer {
