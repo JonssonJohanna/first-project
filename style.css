@@ -19,6 +19,17 @@
   box-sizing: border-box;
 }
 
+@media screen and (min-width: 768px) {
+  body {
+    background-color: var(--background-color);
+  }
+}
+@media screen and (min-width: 1023px) {
+  body {
+    background-color: black;
+  }
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -34,17 +45,6 @@ main {
 body {
   background-color: var(--background-color);
   margin: 0;
-}
-
-@media screen and (min-width: 768px) {
-  body {
-    background-color: var(--background-color);
-  }
-}
-@media screen and (min-width: 1023px) {
-  body {
-    background-color: black;
-  }
 }
 
 h1 {
@@ -68,13 +68,21 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   background-color: var(--accent-color);
-  width: 300px;
+  width: 450px;
 }
 
 /* .box img {
   width: 100%;
   max-width: 500px;
 } */
+
+.text {
+  color: var(--font-color);
+  font-size: 30px;
+  width: 300px;
+  font-family: monospace;
+  align-self: center;
+}
 
 li {
   list-style: none;
@@ -114,21 +122,27 @@ li {
   margin: 10px;
 }
 
-.text {
-  color: var(--font-color);
-  font-size: 35px;
-  font-family: 'Archivo Black';
-  /* width: 300px; */
-  display: flex;
-  justify-content: center;
-  align-self: center;
-}
-
 .button a {
   color: #da3434;
   border: 3px solid #d15858;
   font-family: 'ArchivoBlack-Regular';
   font-size: 30px;
+}
+
+.concertDay {
+  color: var(--font-color);
+  font-size: 30px;
+  width: 300px;
+  font-family: monospace;
+  align-self: center;
+}
+
+.concertTickets {
+  color: var(--font-color);
+  font-size: 30px;
+  width: 300px;
+  font-family: monospace;
+  align-self: center;
 }
 
 footer {

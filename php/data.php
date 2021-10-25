@@ -24,3 +24,9 @@ $albums = [
     ],
 
 ];
+
+$videoUrl = [
+    "https://www.youtube.com/embed/mWMxVefKu74",
+    "https://www.youtube.com/embed/q_2cfETu2b4",
+    "https://www.youtube.com/embed/h4fd-452i5E",
+];
