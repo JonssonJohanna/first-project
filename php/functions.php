@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-function getDescription(string $name, int $active,  string $genre): string
+function getDescription(string $genre, int $active, string $name,): string
 {
-    return "The name of this band is $name, consisting of Noa. Gunno has been active since $active. Gunno plays $genre. ";
+    return "$genre music since $active by $name. ";
 }
 
 // $date = date("d-m-Y");

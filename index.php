@@ -9,7 +9,7 @@ require __DIR__ . '/php/functions.php';
 
     <div class="container">
         <div class="box">
-            <p class="text"><?php $description = getDescription('Gunno', 2017, 'post-punk');
+            <p class="text"><?php $description = getDescription('Post-punk', 2020, 'Noa Åkesson');
                             echo $description; ?></p>
 
             <?php foreach ($albums as $album) :
@@ -35,11 +35,11 @@ require __DIR__ . '/php/functions.php';
             <?php endforeach; ?>
             <p class="button"><?php echo '<a href="https://drive.google.com/file/d/1vVs2fFyh7bXxaGTz3zVwY75xBvpZNzUQ/view?ts=61412f10" target="_blank">New song</a>';
                                 ?></p>
-            <p class="concert">Gunno on stage 20 december on Plan B!</p>
+            <p class="concert">On stage 20 december at Plan B</p>
 
-            <p class="concertDay"><?php echo "There is " . $daysUntilConcert . " days until the concert. See the great offer below for the first people to get tickets."; ?></p>
+            <p class="concertDay"><?php echo "Count down until the concert. " . $daysUntilConcert . " days left."; ?></p>
 
-            <p class="concertTickets"><?php echo "The first 10 people to buy concert tickets get 50% off and only has to pay " . concertTicket(200) . "kr"; ?></p>
+            <p class="concertTickets"><?php echo "50% off for the first ten people to buy tickets, " . concertTicket(200) . "kr."; ?></p>
 
 
             <?php foreach ($videoUrl as $video) { ?>

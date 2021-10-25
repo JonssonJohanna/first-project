@@ -4,7 +4,7 @@
     url('ArchivoBlack-Regular.woff') format('woff');
 }
 @font-face {
-  font-family: 'Sora regular';
+  font-family: 'Sora';
   src: url('Sora-Regular.woff2') format('woff2'),
     url('Sora-Regular.woff') format('woff');
   font-weight: normal;
@@ -22,7 +22,7 @@
 
 @media only screen and (max-width: 600px) {
   body {
-    background-color: black;
+    background-image: url('img/first-project-background.png');
   }
 }
 
@@ -39,7 +39,7 @@ main {
   flex-direction: column;
 }
 body {
-  background-color: var(--background-color);
+  background-image: url('img/first-project-background.png');
   margin: 0;
 }
 
@@ -64,19 +64,14 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   background-color: var(--accent-color);
-  width: 450px;
+  width: 390px;
 }
-
-/* .box img {
-  width: 100%;
-  max-width: 500px;
-} */
 
 .text {
   color: var(--font-color);
   font-size: 30px;
   width: 300px;
-  font-family: moTiempos, Georgia, serif;
+  font-family: 'Sora';
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -104,21 +99,21 @@ li {
   opacity: 0.6;
 }
 .single {
-  font-family: 'moTiempos, Georgia, serif';
+  font-family: 'Sora';
   font-size: 20px;
   color: var(--text-s-color);
   margin: 10px;
 }
 
 .artist {
-  font-family: 'moTiempos, Georgia, serif';
+  font-family: 'Sora';
   font-size: 15px;
   color: var(--text-s-color);
   margin: 10px;
 }
 
 .date {
-  font-family: 'moTiempos, Georgia, serif';
+  font-family: 'Archivo Black';
   font-size: 11px;
   color: var(--text-s-color);
   margin: 10px;
@@ -135,8 +130,7 @@ li {
   color: var(--text-s-color);
   font-size: 30px;
   width: 300px;
-  font-family: moTiempos, Georgia, serif;
-  align-self: center;
+  font-family: 'Sora';
   margin-bottom: 0;
 }
 
@@ -144,7 +138,7 @@ li {
   color: var(--font-color);
   font-size: 25px;
   width: 300px;
-  font-family: moTiempos, Georgia, serif;
+  font-family: 'Sora';
   margin-bottom: 0;
 }
 
@@ -152,10 +146,14 @@ li {
   color: var(--font-color);
   font-size: 25px;
   width: 300px;
-  font-family: moTiempos, Georgia, serif;
+  font-family: 'Sora';
   margin-bottom: 70px;
 }
 
 footer {
-  color: #d15858;
+  color: var(--text-s-color);
+  font-family: 'Archivo Black';
+  border: solid 1px var(--text-s-color);
+  padding: 10px;
+  margin: 1px;
 }
