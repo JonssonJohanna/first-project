@@ -1,15 +1,3 @@
-@font-face {
-  font-family: 'Archivo Black';
-  src: url('ArchivoBlack-Regular.woff2') format('woff2'),
-    url('ArchivoBlack-Regular.woff') format('woff');
-}
-@font-face {
-  font-family: 'Sora';
-  src: url('Sora-Regular.woff2') format('woff2'),
-    url('Sora-Regular.woff') format('woff');
-  font-weight: normal;
-}
-
 :root {
   --background-color: #e8e8e8;
   --font-color: #d15858;
@@ -20,16 +8,11 @@
   box-sizing: border-box;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    background-image: url('img/first-project-background.png');
-  }
-}
-
 header {
   display: flex;
   justify-content: center;
   background-color: var(--font-color);
+  height: 220px;
 }
 
 main {
@@ -39,7 +22,7 @@ main {
   flex-direction: column;
 }
 body {
-  background-image: url('img/first-project-background.png');
+  background-image: url('/img/first-project-background.png');
   margin: 0;
 }
 
@@ -79,7 +62,6 @@ h1 {
 li {
   list-style: none;
   color: #d15858;
-  font-size: 20px;
 }
 
 .review {
@@ -90,14 +72,17 @@ li {
 .review:hover {
   color: #c90500;
 }
+
 .image {
   width: 340px;
   opacity: 1;
   transition: 0.3s;
 }
+
 .image:hover {
   opacity: 0.6;
 }
+
 .single {
   font-family: 'Sora';
   font-size: 20px;
@@ -126,7 +111,15 @@ li {
   font-size: 30px;
 }
 
-.concert {
+.gunnoConcert {
+  color: var(--text-s-color);
+  font-size: 25px;
+  width: 300px;
+  font-family: 'Sora';
+  margin-bottom: 0;
+}
+
+/* .concert {
   color: var(--text-s-color);
   font-size: 30px;
   width: 300px;
@@ -148,7 +141,7 @@ li {
   width: 300px;
   font-family: 'Sora';
   margin-bottom: 70px;
-}
+} */
 
 footer {
   color: var(--text-s-color);

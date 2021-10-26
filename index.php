@@ -9,8 +9,9 @@ require __DIR__ . '/php/functions.php';
 
     <div class="container">
         <div class="box">
-            <p class="text"><?php $description = getDescription('Post-punk', 2020, 'Noa Åkesson');
-                            echo $description; ?></p>
+
+            <p class="text">
+                <?php echo $description; ?></p>
 
             <?php foreach ($albums as $album) :
                 $review = $album['review'];
@@ -25,21 +26,26 @@ require __DIR__ . '/php/functions.php';
                     <li class="single"><?php echo $single; ?></li>
                     <li class="artist"><?php echo $artist; ?></li>
                     <li class="date"><?php if ($date <= 2021) {
-                                            echo 'Album is released, listen to it on spotify!';
+                                            echo 'Album out now!';
                                         } elseif ($date > 2021 || $date === 2022) {
-                                            echo 'Upcoming album. Click on the link below for a preview.';
+                                            echo 'Upcoming album. Click below for preview.';
                                         }; ?></li>
                 </ul>
-
-
             <?php endforeach; ?>
-            <p class="button"><?php echo '<a href="https://drive.google.com/file/d/1vVs2fFyh7bXxaGTz3zVwY75xBvpZNzUQ/view?ts=61412f10" target="_blank">New song</a>';
-                                ?></p>
-            <p class="concert">On stage 20 december at Plan B</p>
 
-            <p class="concertDay"><?php echo "Count down until the concert. " . $daysUntilConcert . " days left."; ?></p>
+            <p class="button">
+                <?php echo '<a href="https://drive.google.com/file/d/1vVs2fFyh7bXxaGTz3zVwY75xBvpZNzUQ/view?ts=61412f10" target="_blank">New song</a>';
+                ?></p>
 
-            <p class="concertTickets"><?php echo "50% off for the first ten people to buy tickets, " . concertTicket(200) . "kr."; ?></p>
+
+
+            <article class="gunnoConcert">
+                <p>On stage 20 december at Plan B!</p>
+
+                <p><?php echo "Count down until the concert. " . $daysUntilConcert . " days left."; ?></p>
+
+                <p><?php echo "50% off for the first ten people to buy tickets, " . concertTicket(200) . "kr."; ?></p>
+            </article>
 
 
             <?php foreach ($videoUrl as $video) { ?>

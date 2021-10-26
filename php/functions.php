@@ -2,19 +2,27 @@
 
 declare(strict_types=1);
 
+// User Defined Function
+
 function getDescription(string $genre, int $active, string $name,): string
 {
     return "$genre music since $active by $name. ";
 }
+$description = getDescription('Post-punk', 2020, 'Noa Åkesson');
 
-// $date = date("d-m-Y");
+//  Built-in Function
+
 $today = date("m.d.y");
+
+// User Defined Function
 
 function concertTicket($price)
 {
     $newPrice = $price * 0.5;
     return $newPrice;
 }
+
+//  Built-in Function
 
 function daysRemaining($start_date, $end_date)
 {
