@@ -1,12 +1,28 @@
 <img src="https://media.giphy.com/media/Qv4OP7FP1rDbihJ8Wh/giphy-downsized.gif" alt="Animated gif, boxer Tyson Fury" />
 
-# Project Title
+# First php project
 
-Text about the project and why it exists. This would also be a great place to link the project on One.com.
+This is our first individual assignment where the purpose was to create a website of our choice with php, css and html. I decided to create i music page for a band called Gunno, a yet not very well known band. It includes album covers, link to upcoming music and a made upp concert.
+
+# The project uses the following functionality
+
+    Variables
+    Multiple data types
+    Arrays
+    Functions
+    Loops
+    Multiple files (require)
+    Output (echo, print etc.)
 
 # Installation
 
-Add the installation instructions.
+In order to do this you will need to have php on your computer. You also need to create an account on github. To find my repositry you need to search for JonssonJohanna.
+
+1. clone this repository so you can access the files on your computer so you can open them in your editor.
+2. Open your terminal, 'command' + 'j'.
+3. Write `php -S localhost:8000` in the terminal.
+4. Open the localhost:8000 in the url and add `/index.php`at the end of the url.
+5. When you have done that you have access the project.
 
 # Code Review
 

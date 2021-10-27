@@ -36,17 +36,13 @@ require __DIR__ . '/php/functions.php';
             <?php endforeach; ?>
 
             <p class="button">
-                <?php echo '<a href="https://drive.google.com/file/d/1vVs2fFyh7bXxaGTz3zVwY75xBvpZNzUQ/view?ts=61412f10" target="_blank">New song</a>';
-                ?></p>
-
-            <p class="button">
                 <a href="https://drive.google.com/file/d/1vVs2fFyh7bXxaGTz3zVwY75xBvpZNzUQ/view?ts=61412f10" target="_blank">New song</a>;
             </p>
 
 
 
             <article class="gunnoConcert">
-                <p>On stage 20 december at Plan B!</p>
+                <p class="concert">On stage 20 december at Plan B!</p>
 
                 <p><?php echo "Count down until the concert. " . $daysUntilConcert . " days left."; ?></p>
 

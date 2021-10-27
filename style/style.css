@@ -7,7 +7,7 @@
 * {
   box-sizing: border-box;
 }
-
+/* Header contains everything in the header.php. */
 header {
   display: flex;
   justify-content: center;
@@ -15,12 +15,14 @@ header {
   height: 220px;
 }
 
+/* Main element that is set to flex so all the children can be placed in center. */
 main {
   display: flex;
   justify-content: center;
   align-content: center;
   flex-direction: column;
 }
+/* Background color is an image. */
 body {
   background-image: url('/img/first-project-background.png');
   margin: 0;
@@ -36,12 +38,13 @@ h1 {
   width: 100%;
 }
 
+/* The container class is the parent for the main contet such as array, loop and functions. */
 .container {
   display: flex;
   justify-content: center;
   align-content: center;
 }
-
+/* The box class is the main child to the conatiner parent. */
 .box {
   display: flex;
   justify-content: center;
@@ -58,12 +61,13 @@ h1 {
   margin-left: 10%;
   margin-right: 10%;
 }
-
+/* List that contains the array $albums. */
 li {
   list-style: none;
   color: #d15858;
 }
 
+/* Class in the list above. */
 .review {
   font-size: 25px;
   font-family: 'Archivo Black';
@@ -73,16 +77,17 @@ li {
   color: #c90500;
 }
 
+/* Class in the list above. */
 .image {
   width: 340px;
   opacity: 1;
   transition: 0.3s;
 }
-
 .image:hover {
   opacity: 0.6;
 }
 
+/* Class in the list above. */
 .single {
   font-family: 'Sora';
   font-size: 20px;
@@ -90,6 +95,7 @@ li {
   margin: 10px;
 }
 
+/* Class in the list above. */
 .artist {
   font-family: 'Sora';
   font-size: 15px;
@@ -97,6 +103,7 @@ li {
   margin: 10px;
 }
 
+/* Class in the list above. */
 .date {
   font-family: 'Archivo Black';
   font-size: 11px;
@@ -111,37 +118,28 @@ li {
   font-size: 30px;
 }
 
+/* class that includes another class, concert, and two functions. */
 .gunnoConcert {
   color: var(--text-s-color);
   font-size: 25px;
   width: 300px;
   font-family: 'Sora';
   margin-bottom: 0;
+  transition: 1s;
 }
 
-/* .concert {
+.concert {
   color: var(--text-s-color);
-  font-size: 30px;
-  width: 300px;
-  font-family: 'Sora';
-  margin-bottom: 0;
-}
-
-.concertDay {
-  color: var(--font-color);
   font-size: 25px;
   width: 300px;
   font-family: 'Sora';
-  margin-bottom: 0;
+  font-weight: bold;
+  margin-bottom: 0px;
 }
 
-.concertTickets {
+.concert:hover {
   color: var(--font-color);
-  font-size: 25px;
-  width: 300px;
-  font-family: 'Sora';
-  margin-bottom: 70px;
-} */
+}
 
 footer {
   color: var(--text-s-color);

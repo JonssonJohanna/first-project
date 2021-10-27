@@ -1,10 +1,6 @@
 /* Smartphone */
 
 @media screen and (max-width: 460px) {
-  body {
-    background-image: url(/img/first-project-background.png);
-  }
-
   .container {
     width: 380px;
     margin-left: auto;
