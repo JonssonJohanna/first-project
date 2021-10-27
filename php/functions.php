@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-// User Defined Function
+// User Defined Function that prints out text that can be rewritten by altering the strings. //
 
 function getDescription(string $genre, int $active, string $name,): string
 {
@@ -10,11 +10,11 @@ function getDescription(string $genre, int $active, string $name,): string
 }
 $description = getDescription('Post-punk', 2020, 'Noa Åkesson');
 
-//  Built-in Function
+//  Built-in Function for date. //
 
 $today = date("m.d.y");
 
-// User Defined Function
+// User Defined Function that multiplies sum, in this case 200, with 0,5.
 
 function concertTicket($price)
 {
@@ -22,15 +22,15 @@ function concertTicket($price)
     return $newPrice;
 }
 
-//  Built-in Function
+//  Built-in Function, strtotime that subtracts todays date with end date and counts down until the concer. //
 
-function daysRemaining($start_date, $end_date)
+function daysRemaining($startDate, $endDate)
 {
-    $days = strtotime($start_date) - strtotime($end_date);
+    $days = strtotime($startDate) - strtotime($endDate);
 
     return abs($days / 86400);
 }
 
-$start_date = "2021-10-22";
-$end_date = "2021-12-20";
-$daysUntilConcert = daysRemaining($start_date, $end_date);
+$startDate = date("Y-m-d");
+$endDate = "2021-12-20";
+$daysUntilConcert = daysRemaining($startDate, $endDate);

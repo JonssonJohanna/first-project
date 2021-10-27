@@ -19,15 +19,11 @@
 /*  Tablet  and Desktops */
 
 @media screen and (min-width: 700px) {
-  body {
-    background-image: url(/img/first-project-background.png);
-  }
-
-  /* .box {
+  .box {
     width: 450px;
     justify-content: center;
     align-self: center;
-  } */
+  }
   .review {
     font-size: 30px;
   }

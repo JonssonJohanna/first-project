@@ -16,13 +16,15 @@ require __DIR__ . '/php/functions.php';
             <?php foreach ($albums as $album) :
                 $review = $album['review'];
                 $image = $album['image'];
+                $alt = $album['alt'];
                 $single = $album['single'];
                 $artist = $album['artist'];
                 $date = $album['release date'];
             ?>
                 <ul>
                     <li class="review"><?php echo $review; ?></li>
-                    <li class="image"><img src="<?php echo $image; ?>" width="300px" height="300px"></li>
+                    <li class="image"><img src="<?php echo $image; ?>" alt="<?php echo $alt; ?>" width="300px" height="300px"></li>
+
                     <li class="single"><?php echo $single; ?></li>
                     <li class="artist"><?php echo $artist; ?></li>
                     <li class="date"><?php if ($date <= 2021) {
@@ -36,6 +38,10 @@ require __DIR__ . '/php/functions.php';
             <p class="button">
                 <?php echo '<a href="https://drive.google.com/file/d/1vVs2fFyh7bXxaGTz3zVwY75xBvpZNzUQ/view?ts=61412f10" target="_blank">New song</a>';
                 ?></p>
+
+            <p class="button">
+                <a href="https://drive.google.com/file/d/1vVs2fFyh7bXxaGTz3zVwY75xBvpZNzUQ/view?ts=61412f10" target="_blank">New song</a>;
+            </p>
 
 
 
