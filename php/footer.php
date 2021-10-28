@@ -1,5 +1,5 @@
 <footer>
-    <p>@ WU YRGO 2021</p>
+    <p>@ WU 21 YRGO</p>
     <p>Johanna Jönsson</p>
     <p> <?php echo $today ?> </p>
 </footer>

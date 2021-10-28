@@ -10,8 +10,9 @@ require __DIR__ . '/php/functions.php';
     <div class="container">
         <div class="box">
 
-            <p class="text">
-                <?php echo $description; ?></p>
+            <h2 class="text">
+                <?php echo $description; ?>
+            </h2>
 
             <?php foreach ($albums as $album) :
                 $review = $album['review'];
@@ -42,7 +43,12 @@ require __DIR__ . '/php/functions.php';
 
 
             <article class="gunnoConcert">
-                <p class="concert">On stage 20 december at Plan B!</p>
+
+                <p>- - - - - - - - - - - - - - - - - - - - </p>
+
+                <p class="concert">Upcoming concert</p>
+
+                <p>On stage 20 december at Plan B!</p>
 
                 <p><?php echo "Count down until the concert. " . $daysUntilConcert . " days left."; ?></p>
 
@@ -51,16 +57,14 @@ require __DIR__ . '/php/functions.php';
 
 
             <?php foreach ($videoUrl as $video) { ?>
-                <iframe width="300" height="300" src="<?php echo $video; ?>" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                <iframe width="300" height="300" src="<?php echo $video; ?>" title="Gunno music video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
             <?php
             } ?>
 
         </div>
-
-
     </div>
-
-    </p>
 </main>
 <?php
 require __DIR__ . '/php/footer.php';

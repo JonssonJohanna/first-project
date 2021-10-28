@@ -55,7 +55,7 @@ h1 {
 
 .text {
   color: var(--font-color);
-  font-size: 30px;
+  font-size: 1.9rem;
   width: 300px;
   font-family: 'Sora';
   margin-left: 10%;
@@ -69,7 +69,7 @@ li {
 
 /* Class in the list above. */
 .review {
-  font-size: 25px;
+  font-size: 1.6rem;
   font-family: 'Archivo Black';
   margin-bottom: 10px;
 }
@@ -90,7 +90,7 @@ li {
 /* Class in the list above. */
 .single {
   font-family: 'Sora';
-  font-size: 20px;
+  font-size: 1.25rem;
   color: var(--text-s-color);
   margin: 10px;
 }
@@ -98,7 +98,7 @@ li {
 /* Class in the list above. */
 .artist {
   font-family: 'Sora';
-  font-size: 15px;
+  font-size: 1rem;
   color: var(--text-s-color);
   margin: 10px;
 }
@@ -106,22 +106,23 @@ li {
 /* Class in the list above. */
 .date {
   font-family: 'Archivo Black';
-  font-size: 11px;
+  font-size: 0.7rem;
   color: var(--text-s-color);
   margin: 10px;
+  width: 250px;
 }
 
 .button a {
   color: #da3434;
   border: 3px solid #d15858;
   font-family: 'Archivo Black';
-  font-size: 30px;
+  font-size: 1.9rem;
 }
 
 /* class that includes another class, concert, and two functions. */
 .gunnoConcert {
   color: var(--text-s-color);
-  font-size: 25px;
+  font-size: 1.25rem;
   width: 300px;
   font-family: 'Sora';
   margin-bottom: 0;
@@ -130,9 +131,9 @@ li {
 
 .concert {
   color: var(--text-s-color);
-  font-size: 25px;
+  font-size: 1.6rem;
   width: 300px;
-  font-family: 'Sora';
+  font-family: 'Archivo Black';
   font-weight: bold;
   margin-bottom: 0px;
 }
