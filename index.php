@@ -37,7 +37,7 @@ require __DIR__ . '/php/functions.php';
             <?php endforeach; ?>
 
             <p class="button">
-                <a href="https://drive.google.com/file/d/1vVs2fFyh7bXxaGTz3zVwY75xBvpZNzUQ/view?ts=61412f10" target="_blank">New song</a>;
+                <a href="drive.google.com/file/d/1vVs2fFyh7bXxaGTz3zVwY75xBvpZNzUQ/view?ts=61412f10" target="_blank">New song</a>
             </p>
 
 

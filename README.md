@@ -3,6 +3,7 @@
 # First php project
 
 This is our first individual assignment, the purpose was to create a website of our choice with php, css and html. I decided to create a music page for a band called Gunno, a yet not very well known band. It includes album covers, link to upcoming music and a made upp concert.
+Link to my one.com:http://johjon.com/first-project/
 
 # The project uses the following functionality
 
@@ -38,5 +39,5 @@ Code review written by [Jane Doh](https://github.com/username).
 
 Tested by the following people:
 
-1. Jane Doe
+1. Sophie Wulff
 2. John Doe

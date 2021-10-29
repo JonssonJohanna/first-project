@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'Archivo Black';
-  src: url('/font/Archivo/ArchivoBlack-Regular.woff2') format('woff2'),
-    url('/font/Archivo/ArchivoBlack-Regular.woff') format('woff');
+  src: url('../font/Archivo/ArchivoBlack-Regular.woff2') format('woff2'),
+    url('../font/Archivo/ArchivoBlack-Regular.woff') format('woff');
   font-weight: 900;
 }
 @font-face {
   font-family: 'Sora';
-  src: url('/font/Sora/Sora-Regular.woff2') format('woff2'),
-    url('/font/Sora/Sora-Regular.woff') format('woff');
+  src: url('../font/Sora/Sora-Regular.woff2') format('woff2'),
+    url('../font/Sora/Sora-Regular.woff') format('woff');
   font-weight: normal;
 }
