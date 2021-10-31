@@ -147,5 +147,5 @@ footer {
   font-family: 'Archivo Black';
   border: solid 1px var(--text-s-color);
   padding: 10px;
-  margin: 1px;
+  margin-top: 10px;
 }
