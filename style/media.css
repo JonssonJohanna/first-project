@@ -1,8 +1,12 @@
 /* Smartphone */
 
 @media screen and (max-width: 460px) {
+  header {
+    height: 208px;
+  }
+
   .container {
-    width: 380px;
+    width: 386px;
     margin-left: auto;
     margin-right: auto;
   }
