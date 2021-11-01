@@ -17,7 +17,7 @@ Link to my one.com:http://johjon.com/first-project/
 
 # Installation
 
-In order to do this you will need to have php on your computer. You also need to create an account on github. To find my repositry you need to search for JonssonJohanna.
+In order to do this you need to have php on your computer. To find my repositry on Github search for JonssonJohanna.
 
 1. clone the repository so that you can access the files on your computer and open them in your code editor.
 2. Open your terminal, 'command' + 'j'.
