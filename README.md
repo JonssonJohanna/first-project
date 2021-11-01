@@ -41,3 +41,7 @@ Tested by the following people:
 
 1. Sophie Wulff
 2. Jennifer Andersson
+
+# Creator
+
+[Johanna Jönsson](https://github.com/JonssonJohanna)
