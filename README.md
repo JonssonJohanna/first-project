@@ -1,4 +1,4 @@
-<img src="https://media.giphy.com/media/Qv4OP7FP1rDbihJ8Wh/giphy-downsized.gif" alt="Animated gif, boxer Tyson Fury" />
+<img src="https://media.giphy.com/media/14sKLRXRbj2LUQ/giphy.gif" alt="Animated gif showing a baby on a conceret wearing ear protection." />
 
 # First php project
 
