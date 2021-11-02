@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 // User Defined Function that prints out text that can be rewritten by altering the strings. //
 
-function getDescription(string $genre, int $active, string $name,): string
+function getDescription(string $genre, int $active, string $name): string
 {
     return "$genre music since $active by $name. ";
 }

@@ -27,13 +27,13 @@ In order to do this you need to have php on your computer. To find my repositry 
 
 # Code Review
 
-Code review written by [Jane Doh](https://github.com/username).
+Code review written by [Anton Marinov](https://github.com/antmar0417).
 
-1. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-2. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-3. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-4. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
-5. `example.js:10-15` - Remember to think about X and this could be refactored using the amazing Y function.
+1. `index.php:14-61` - You can use a short echo tag "<?= ?>" for optimising your code.
+2. `functions.php:13` - You can skip the comment "Built-in Function for date" as we already know that is a built-in function.
+3. `functions.php:7` - You have a comma sign after the variable name.
+4. `style.css:35` - Remember to use your color variable var(--font-color) on line 35, 67 and 117.
+5. `-` - This site is not desktop optimised. For example, you can show more pictures in each row.
 
 # Testers
 
