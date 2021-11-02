@@ -2,7 +2,7 @@
 
 # First php project
 
-This is our first individual assignment, the purpose was to create a website of our choice with php, css and html. I decided to create a music page for a band called Gunno, a yet not very well known band. It includes album covers, link to upcoming music and a made upp concert.
+This is our first individual assignment, the purpose was to create a PHP applicationa of our choice using HTML, CSS and PHP. I decided to create a music page for a band called Gunno, a yet not very well known band. It includes album covers, link to upcoming music and a made upp concert.
 Link to my one.com:http://johjon.com/first-project/
 
 # The project uses the following functionality
