@@ -5,7 +5,7 @@ declare(strict_types=1);
 
 $albums = [
     [
-        'review' => 'New Album',
+        'review' => 'NEW ALBUM',
         'artist' => ' By: Gunno',
         'single' => '"Finns i sjön"',
         'image' => 'images/gunno-image-1.png',
@@ -13,7 +13,7 @@ $albums = [
         'release date' => 2021,
     ],
     [
-        'review' => 'Most popular',
+        'review' => 'MOST POPULAR',
         'artist' => 'By: Gunno',
         'single' => '"Rädda julen"',
         'image' => 'images/gunno-image-2.png',
@@ -21,7 +21,7 @@ $albums = [
         'release date' => 2020,
     ],
     [
-        'review' => 'Coming soon',
+        'review' => 'COMING SOON',
         'artist' => 'By: Gunno',
         'single' => '"Död radio"',
         'image' => 'images/gunno-image3.png',
