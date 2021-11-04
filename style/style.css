@@ -24,7 +24,7 @@ main {
 }
 /* Background color is an image. */
 body {
-  background-image: url('../img/first-project-background.png');
+  background-image: url('../images/first-project-background.png');
   margin: 0;
 }
 

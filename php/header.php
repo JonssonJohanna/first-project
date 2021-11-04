@@ -14,6 +14,6 @@
 <body>
     <header>
         <nav class="navbarImage">
-            <img src="img/main-pp.jpg" alt="Gunno cover photo with a colored background" />
+            <img src="images/main-pp.jpg" alt="Gunno cover photo with a colored background" />
         </nav>
     </header>

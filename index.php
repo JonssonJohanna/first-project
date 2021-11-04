@@ -11,7 +11,10 @@ require __DIR__ . '/php/functions.php';
         <div class="box">
 
             <h2 class="text">
-                <?php echo $description; ?>
+                <?php
+                $description = getDescription('Post-punk', 2020, 'Noa Åkesson');
+                echo $description;
+                ?>
             </h2>
 
             <?php foreach ($albums as $album) :
@@ -28,11 +31,12 @@ require __DIR__ . '/php/functions.php';
 
                     <li class="single"><?php echo $single; ?></li>
                     <li class="artist"><?php echo $artist; ?></li>
-                    <li class="date"><?php if ($date <= 2021) {
-                                            echo 'Album out now!';
-                                        } elseif ($date > 2021 || $date === 2022) {
-                                            echo 'Upcoming album. Click below for preview.';
-                                        }; ?></li>
+                    <li class="date">
+                        <?php if ($date <= 2021) {
+                            echo 'Album out now!';
+                        } elseif ($date > 2021 || $date === 2022) {
+                            echo 'Upcoming album. Click below for preview.';
+                        }; ?></li>
                 </ul>
             <?php endforeach; ?>
 
@@ -50,9 +54,16 @@ require __DIR__ . '/php/functions.php';
 
                 <p>On stage 20 december at Plan B!</p>
 
-                <p><?php echo "Count down until the concert. " . $daysUntilConcert . " days left."; ?></p>
+                <p><?php
+                    $startDate = date("Y-m-d");
+                    $endDate = "2021-12-20";
+                    $daysUntilConcert = daysRemaining($startDate, $endDate);
+                    echo "Count down until the concert. " . $daysUntilConcert . " days left.";
+                    ?></p>
 
-                <p><?php echo "50% off for the first ten people to buy tickets, " . concertTicket(200) . "kr."; ?></p>
+                <p><?php
+                    echo "50% off for the first ten people to buy tickets, " . concertTicket(200) . "kr.";
+                    ?></p>
             </article>
 
 
